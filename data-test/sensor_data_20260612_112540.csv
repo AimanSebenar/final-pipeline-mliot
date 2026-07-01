@@ -1,0 +1,6 @@
+timestamp,motion_detected,temperature_c,humidity_pct,audio_detected
+2026-06-12 11:25:40,True,25.0,59.7,True
+2026-06-12 11:25:51,True,24.6,60.3,False
+2026-06-12 11:26:01,True,24.6,60.6,False
+2026-06-12 11:26:11,True,24.6,60.8,False
+2026-06-12 11:26:21,True,24.6,61.2,False

@@ -1,0 +1,605 @@
+2026-06-17 09:16:29,646 [INFO] GPIO initialised (BCM mode). Motion PIN=17  Audio PIN=23
+2026-06-17 09:16:29,647 [INFO] CSV initialised → /home/pi/data-collection-mliot/data-3/sensor_data_20260617_091629.csv
+2026-06-17 09:16:29,648 [INFO] Logging 48 samples every 10 s → /home/pi/data-collection-mliot/data-3/sensor_data_20260617_091629.csv
+2026-06-17 09:16:29,648 [INFO] ── Sample 1 / 48 ──
+2026-06-17 09:16:29,902 [INFO] Sample → {'timestamp': '2026-06-17 09:16:29', 'motion_detected': False, 'temperature_c': 30.6, 'humidity_pct': 74.3, 'audio_detected': 1}
+2026-06-17 09:16:29,902 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:16:39,903 [INFO] ── Sample 2 / 48 ──
+2026-06-17 09:16:40,157 [INFO] Sample → {'timestamp': '2026-06-17 09:16:39', 'motion_detected': False, 'temperature_c': 30.4, 'humidity_pct': 76.3, 'audio_detected': 1}
+2026-06-17 09:16:40,157 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:16:50,158 [INFO] ── Sample 3 / 48 ──
+2026-06-17 09:16:50,412 [INFO] Sample → {'timestamp': '2026-06-17 09:16:50', 'motion_detected': True, 'temperature_c': 30.5, 'humidity_pct': 82.6, 'audio_detected': 1}
+2026-06-17 09:16:50,413 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:17:00,413 [INFO] ── Sample 4 / 48 ──
+2026-06-17 09:17:00,667 [INFO] Sample → {'timestamp': '2026-06-17 09:17:00', 'motion_detected': False, 'temperature_c': 30.5, 'humidity_pct': 84.4, 'audio_detected': 1}
+2026-06-17 09:17:00,668 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:17:10,668 [INFO] ── Sample 5 / 48 ──
+2026-06-17 09:17:10,922 [WARNING] DHT22 read attempt 1/5 failed: Checksum did not validate. Try again.
+2026-06-17 09:17:13,176 [INFO] Sample → {'timestamp': '2026-06-17 09:17:10', 'motion_detected': True, 'temperature_c': 30.7, 'humidity_pct': 80.8, 'audio_detected': 1}
+2026-06-17 09:17:13,176 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:17:23,177 [INFO] ── Sample 6 / 48 ──
+2026-06-17 09:17:23,431 [INFO] Sample → {'timestamp': '2026-06-17 09:17:23', 'motion_detected': False, 'temperature_c': 30.8, 'humidity_pct': 80.6, 'audio_detected': 1}
+2026-06-17 09:17:23,432 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:17:33,432 [INFO] ── Sample 7 / 48 ──
+2026-06-17 09:17:33,686 [INFO] Sample → {'timestamp': '2026-06-17 09:17:33', 'motion_detected': True, 'temperature_c': 30.8, 'humidity_pct': 78.8, 'audio_detected': 1}
+2026-06-17 09:17:33,687 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:17:43,687 [INFO] ── Sample 8 / 48 ──
+2026-06-17 09:17:43,941 [INFO] Sample → {'timestamp': '2026-06-17 09:17:43', 'motion_detected': False, 'temperature_c': 30.9, 'humidity_pct': 80.1, 'audio_detected': 1}
+2026-06-17 09:17:43,942 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:17:53,942 [INFO] ── Sample 9 / 48 ──
+2026-06-17 09:17:54,196 [INFO] Sample → {'timestamp': '2026-06-17 09:17:53', 'motion_detected': False, 'temperature_c': 31.0, 'humidity_pct': 80.8, 'audio_detected': 1}
+2026-06-17 09:17:54,197 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:18:04,197 [INFO] ── Sample 10 / 48 ──
+2026-06-17 09:18:04,451 [INFO] Sample → {'timestamp': '2026-06-17 09:18:04', 'motion_detected': True, 'temperature_c': 31.1, 'humidity_pct': 77.5, 'audio_detected': 1}
+2026-06-17 09:18:04,452 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:18:14,452 [INFO] ── Sample 11 / 48 ──
+2026-06-17 09:18:14,706 [INFO] Sample → {'timestamp': '2026-06-17 09:18:14', 'motion_detected': False, 'temperature_c': 31.1, 'humidity_pct': 74.5, 'audio_detected': 1}
+2026-06-17 09:18:14,707 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:18:24,707 [INFO] ── Sample 12 / 48 ──
+2026-06-17 09:18:24,962 [INFO] Sample → {'timestamp': '2026-06-17 09:18:24', 'motion_detected': False, 'temperature_c': 31.1, 'humidity_pct': 74.0, 'audio_detected': 1}
+2026-06-17 09:18:24,962 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:18:34,962 [INFO] ── Sample 13 / 48 ──
+2026-06-17 09:18:35,217 [INFO] Sample → {'timestamp': '2026-06-17 09:18:34', 'motion_detected': False, 'temperature_c': 31.2, 'humidity_pct': 74.4, 'audio_detected': 1}
+2026-06-17 09:18:35,217 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:18:45,217 [INFO] ── Sample 14 / 48 ──
+2026-06-17 09:18:45,471 [INFO] Sample → {'timestamp': '2026-06-17 09:18:45', 'motion_detected': True, 'temperature_c': 31.3, 'humidity_pct': 73.2, 'audio_detected': 1}
+2026-06-17 09:18:45,472 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:18:55,472 [INFO] ── Sample 15 / 48 ──
+2026-06-17 09:18:55,727 [INFO] Sample → {'timestamp': '2026-06-17 09:18:55', 'motion_detected': False, 'temperature_c': 31.2, 'humidity_pct': 72.6, 'audio_detected': 1}
+2026-06-17 09:18:55,727 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:19:05,727 [INFO] ── Sample 16 / 48 ──
+2026-06-17 09:19:05,982 [INFO] Sample → {'timestamp': '2026-06-17 09:19:05', 'motion_detected': True, 'temperature_c': 31.2, 'humidity_pct': 72.4, 'audio_detected': 1}
+2026-06-17 09:19:05,982 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:19:15,983 [INFO] ── Sample 17 / 48 ──
+2026-06-17 09:19:16,237 [INFO] Sample → {'timestamp': '2026-06-17 09:19:15', 'motion_detected': False, 'temperature_c': 31.1, 'humidity_pct': 72.6, 'audio_detected': 1}
+2026-06-17 09:19:16,237 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:19:26,238 [INFO] ── Sample 18 / 48 ──
+2026-06-17 09:19:26,492 [INFO] Sample → {'timestamp': '2026-06-17 09:19:26', 'motion_detected': True, 'temperature_c': 31.1, 'humidity_pct': 72.6, 'audio_detected': 1}
+2026-06-17 09:19:26,492 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:19:36,493 [INFO] ── Sample 19 / 48 ──
+2026-06-17 09:19:36,747 [INFO] Sample → {'timestamp': '2026-06-17 09:19:36', 'motion_detected': False, 'temperature_c': 31.0, 'humidity_pct': 72.9, 'audio_detected': 1}
+2026-06-17 09:19:36,747 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:19:46,748 [INFO] ── Sample 20 / 48 ──
+2026-06-17 09:19:47,002 [INFO] Sample → {'timestamp': '2026-06-17 09:19:46', 'motion_detected': True, 'temperature_c': 30.9, 'humidity_pct': 72.9, 'audio_detected': 1}
+2026-06-17 09:19:47,003 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:19:57,003 [INFO] ── Sample 21 / 48 ──
+2026-06-17 09:19:57,257 [INFO] Sample → {'timestamp': '2026-06-17 09:19:57', 'motion_detected': False, 'temperature_c': 30.9, 'humidity_pct': 73.3, 'audio_detected': 1}
+2026-06-17 09:19:57,258 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:20:07,258 [INFO] ── Sample 22 / 48 ──
+2026-06-17 09:20:07,512 [INFO] Sample → {'timestamp': '2026-06-17 09:20:07', 'motion_detected': False, 'temperature_c': 30.9, 'humidity_pct': 81.1, 'audio_detected': 1}
+2026-06-17 09:20:07,513 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:20:17,513 [INFO] ── Sample 23 / 48 ──
+2026-06-17 09:20:17,767 [INFO] Sample → {'timestamp': '2026-06-17 09:20:17', 'motion_detected': False, 'temperature_c': 31.0, 'humidity_pct': 86.2, 'audio_detected': 1}
+2026-06-17 09:20:17,768 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:20:27,768 [INFO] ── Sample 24 / 48 ──
+2026-06-17 09:20:28,022 [INFO] Sample → {'timestamp': '2026-06-17 09:20:27', 'motion_detected': False, 'temperature_c': 31.1, 'humidity_pct': 87.2, 'audio_detected': 1}
+2026-06-17 09:20:28,023 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:20:38,023 [INFO] ── Sample 25 / 48 ──
+2026-06-17 09:20:38,277 [INFO] Sample → {'timestamp': '2026-06-17 09:20:38', 'motion_detected': False, 'temperature_c': 31.1, 'humidity_pct': 80.5, 'audio_detected': 1}
+2026-06-17 09:20:38,278 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:20:48,278 [INFO] ── Sample 26 / 48 ──
+2026-06-17 09:20:48,532 [INFO] Sample → {'timestamp': '2026-06-17 09:20:48', 'motion_detected': False, 'temperature_c': 31.1, 'humidity_pct': 75.7, 'audio_detected': 1}
+2026-06-17 09:20:48,533 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:20:58,533 [INFO] ── Sample 27 / 48 ──
+2026-06-17 09:20:58,787 [INFO] Sample → {'timestamp': '2026-06-17 09:20:58', 'motion_detected': False, 'temperature_c': 31.1, 'humidity_pct': 74.3, 'audio_detected': 1}
+2026-06-17 09:20:58,788 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:21:08,788 [INFO] ── Sample 28 / 48 ──
+2026-06-17 09:21:09,042 [INFO] Sample → {'timestamp': '2026-06-17 09:21:08', 'motion_detected': False, 'temperature_c': 31.0, 'humidity_pct': 73.5, 'audio_detected': 1}
+2026-06-17 09:21:09,043 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:21:19,043 [INFO] ── Sample 29 / 48 ──
+2026-06-17 09:21:19,297 [INFO] Sample → {'timestamp': '2026-06-17 09:21:19', 'motion_detected': False, 'temperature_c': 31.1, 'humidity_pct': 73.5, 'audio_detected': 1}
+2026-06-17 09:21:19,298 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:21:29,298 [INFO] ── Sample 30 / 48 ──
+2026-06-17 09:21:29,553 [INFO] Sample → {'timestamp': '2026-06-17 09:21:29', 'motion_detected': False, 'temperature_c': 31.0, 'humidity_pct': 73.4, 'audio_detected': 1}
+2026-06-17 09:21:29,553 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:21:39,553 [INFO] ── Sample 31 / 48 ──
+2026-06-17 09:21:39,808 [INFO] Sample → {'timestamp': '2026-06-17 09:21:39', 'motion_detected': False, 'temperature_c': 31.0, 'humidity_pct': 73.4, 'audio_detected': 1}
+2026-06-17 09:21:39,808 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:21:49,808 [INFO] ── Sample 32 / 48 ──
+2026-06-17 09:21:50,063 [INFO] Sample → {'timestamp': '2026-06-17 09:21:49', 'motion_detected': False, 'temperature_c': 30.9, 'humidity_pct': 73.6, 'audio_detected': 1}
+2026-06-17 09:21:50,063 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:22:00,063 [INFO] ── Sample 33 / 48 ──
+2026-06-17 09:22:00,318 [INFO] Sample → {'timestamp': '2026-06-17 09:22:00', 'motion_detected': False, 'temperature_c': 30.9, 'humidity_pct': 73.4, 'audio_detected': 1}
+2026-06-17 09:22:00,318 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:22:10,318 [INFO] ── Sample 34 / 48 ──
+2026-06-17 09:22:10,573 [INFO] Sample → {'timestamp': '2026-06-17 09:22:10', 'motion_detected': False, 'temperature_c': 30.8, 'humidity_pct': 73.5, 'audio_detected': 1}
+2026-06-17 09:22:10,573 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:22:20,574 [INFO] ── Sample 35 / 48 ──
+2026-06-17 09:22:20,828 [INFO] Sample → {'timestamp': '2026-06-17 09:22:20', 'motion_detected': False, 'temperature_c': 30.8, 'humidity_pct': 73.5, 'audio_detected': 1}
+2026-06-17 09:22:20,828 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:22:30,829 [INFO] ── Sample 36 / 48 ──
+2026-06-17 09:22:31,083 [INFO] Sample → {'timestamp': '2026-06-17 09:22:30', 'motion_detected': False, 'temperature_c': 30.7, 'humidity_pct': 73.7, 'audio_detected': 1}
+2026-06-17 09:22:31,083 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:22:41,084 [INFO] ── Sample 37 / 48 ──
+2026-06-17 09:22:41,338 [INFO] Sample → {'timestamp': '2026-06-17 09:22:41', 'motion_detected': False, 'temperature_c': 30.7, 'humidity_pct': 73.8, 'audio_detected': 1}
+2026-06-17 09:22:41,338 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:22:51,339 [INFO] ── Sample 38 / 48 ──
+2026-06-17 09:22:51,593 [INFO] Sample → {'timestamp': '2026-06-17 09:22:51', 'motion_detected': False, 'temperature_c': 30.7, 'humidity_pct': 74.0, 'audio_detected': 1}
+2026-06-17 09:22:51,593 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:23:01,594 [INFO] ── Sample 39 / 48 ──
+2026-06-17 09:23:01,848 [INFO] Sample → {'timestamp': '2026-06-17 09:23:01', 'motion_detected': False, 'temperature_c': 30.6, 'humidity_pct': 73.9, 'audio_detected': 1}
+2026-06-17 09:23:01,848 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:23:11,849 [INFO] ── Sample 40 / 48 ──
+2026-06-17 09:23:12,103 [INFO] Sample → {'timestamp': '2026-06-17 09:23:11', 'motion_detected': False, 'temperature_c': 30.6, 'humidity_pct': 73.9, 'audio_detected': 1}
+2026-06-17 09:23:12,103 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:23:22,104 [INFO] ── Sample 41 / 48 ──
+2026-06-17 09:23:22,360 [WARNING] DHT22 read attempt 1/5 failed: Checksum did not validate. Try again.
+2026-06-17 09:23:24,615 [INFO] Sample → {'timestamp': '2026-06-17 09:23:22', 'motion_detected': False, 'temperature_c': 30.6, 'humidity_pct': 74.0, 'audio_detected': 1}
+2026-06-17 09:23:24,616 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:23:34,616 [INFO] ── Sample 42 / 48 ──
+2026-06-17 09:23:34,871 [INFO] Sample → {'timestamp': '2026-06-17 09:23:34', 'motion_detected': False, 'temperature_c': 30.6, 'humidity_pct': 74.0, 'audio_detected': 1}
+2026-06-17 09:23:34,871 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:23:44,872 [INFO] ── Sample 43 / 48 ──
+2026-06-17 09:23:45,126 [INFO] Sample → {'timestamp': '2026-06-17 09:23:44', 'motion_detected': False, 'temperature_c': 30.6, 'humidity_pct': 74.0, 'audio_detected': 1}
+2026-06-17 09:23:45,126 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:23:55,127 [INFO] ── Sample 44 / 48 ──
+2026-06-17 09:23:55,381 [INFO] Sample → {'timestamp': '2026-06-17 09:23:55', 'motion_detected': False, 'temperature_c': 30.5, 'humidity_pct': 74.1, 'audio_detected': 1}
+2026-06-17 09:23:55,381 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:24:05,382 [INFO] ── Sample 45 / 48 ──
+2026-06-17 09:24:05,636 [INFO] Sample → {'timestamp': '2026-06-17 09:24:05', 'motion_detected': False, 'temperature_c': 30.5, 'humidity_pct': 74.2, 'audio_detected': 1}
+2026-06-17 09:24:05,637 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:24:15,637 [INFO] ── Sample 46 / 48 ──
+2026-06-17 09:24:15,891 [WARNING] DHT22 read attempt 1/5 failed: Checksum did not validate. Try again.
+2026-06-17 09:24:18,145 [INFO] Sample → {'timestamp': '2026-06-17 09:24:15', 'motion_detected': False, 'temperature_c': 30.5, 'humidity_pct': 74.4, 'audio_detected': 1}
+2026-06-17 09:24:18,146 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:24:28,146 [INFO] ── Sample 47 / 48 ──
+2026-06-17 09:24:28,400 [INFO] Sample → {'timestamp': '2026-06-17 09:24:28', 'motion_detected': False, 'temperature_c': 30.5, 'humidity_pct': 74.3, 'audio_detected': 1}
+2026-06-17 09:24:28,401 [INFO] Sleeping 10 s until next sample…
+2026-06-17 09:24:38,401 [INFO] ── Sample 48 / 48 ──
+2026-06-17 09:24:38,655 [INFO] Sample → {'timestamp': '2026-06-17 09:24:38', 'motion_detected': False, 'temperature_c': 30.5, 'humidity_pct': 74.2, 'audio_detected': 1}
+2026-06-17 09:24:38,656 [INFO] Data collection complete. Pushing to GitHub…
+2026-06-17 09:24:40,514 [INFO] Successfully pushed sensor_data_20260617_091629.csv → AimanSebenar/data-collection-mliot/data-3/sensor_data_20260617_091629.csv
+2026-06-17 09:24:40,515 [INFO] GPIO cleaned up.
+2026-06-19 12:43:59,771 [INFO] GPIO initialised (BCM mode). Motion PIN=17  Audio PIN=23
+2026-06-19 12:43:59,773 [INFO] CSV initialised → /home/pi/data-collection-mliot/data-3/sensor_data_20260619_124359.csv
+2026-06-19 12:43:59,774 [INFO] Logging 48 samples every 10 s → /home/pi/data-collection-mliot/data-3/sensor_data_20260619_124359.csv
+2026-06-19 12:43:59,774 [INFO] ── Sample 1 / 48 ──
+2026-06-19 12:44:00,028 [INFO] Loading model from /home/pi/data-collection-mliot/model/model.pkl
+2026-06-19 12:44:00,028 [INFO] GPIO cleaned up.
+2026-06-19 12:45:25,465 [INFO] GPIO initialised (BCM mode). Motion PIN=17  Audio PIN=23
+2026-06-19 12:45:25,466 [INFO] CSV initialised → /home/pi/data-collection-mliot/data-3/sensor_data_20260619_124525.csv
+2026-06-19 12:45:25,466 [INFO] Logging 48 samples every 10 s → /home/pi/data-collection-mliot/data-3/sensor_data_20260619_124525.csv
+2026-06-19 12:45:25,466 [INFO] ── Sample 1 / 48 ──
+2026-06-19 12:45:25,720 [INFO] Loading model from /home/pi/data-collection-mliot/model/occupancy_model.pkl
+2026-06-19 12:45:28,699 [INFO] Prediction input=[0, 26.9, 52.0, 0] → occupancy=0
+2026-06-19 12:45:28,699 [INFO] Sample → {'timestamp': '2026-06-19 12:45:25', 'motion_detected': False, 'temperature_c': 26.9, 'humidity_pct': 52.0, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:45:28,700 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:45:38,701 [INFO] ── Sample 2 / 48 ──
+2026-06-19 12:45:39,005 [INFO] Prediction input=[0, 26.9, 51.9, 0] → occupancy=0
+2026-06-19 12:45:39,005 [INFO] Sample → {'timestamp': '2026-06-19 12:45:38', 'motion_detected': False, 'temperature_c': 26.9, 'humidity_pct': 51.9, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:45:39,005 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:45:49,006 [INFO] ── Sample 3 / 48 ──
+2026-06-19 12:45:49,309 [INFO] Prediction input=[0, 26.9, 51.9, 0] → occupancy=0
+2026-06-19 12:45:49,309 [INFO] Sample → {'timestamp': '2026-06-19 12:45:49', 'motion_detected': False, 'temperature_c': 26.9, 'humidity_pct': 51.9, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:45:49,310 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:45:59,310 [INFO] ── Sample 4 / 48 ──
+2026-06-19 12:45:59,614 [INFO] Prediction input=[0, 27.2, 78.7, 0] → occupancy=0
+2026-06-19 12:45:59,614 [INFO] Sample → {'timestamp': '2026-06-19 12:45:59', 'motion_detected': False, 'temperature_c': 27.2, 'humidity_pct': 78.7, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:45:59,615 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:46:09,615 [INFO] ── Sample 5 / 48 ──
+2026-06-19 12:46:09,918 [INFO] Prediction input=[0, 27.8, 90.2, 1] → occupancy=1
+2026-06-19 12:46:09,918 [INFO] Sample → {'timestamp': '2026-06-19 12:46:09', 'motion_detected': False, 'temperature_c': 27.8, 'humidity_pct': 90.2, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:46:09,919 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:46:19,919 [INFO] ── Sample 6 / 48 ──
+2026-06-19 12:46:20,223 [INFO] Prediction input=[0, 28.3, 79.5, 0] → occupancy=0
+2026-06-19 12:46:20,223 [INFO] Sample → {'timestamp': '2026-06-19 12:46:19', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 79.5, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:46:20,224 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:46:30,224 [INFO] ── Sample 7 / 48 ──
+2026-06-19 12:46:30,527 [INFO] Prediction input=[0, 28.6, 58.8, 1] → occupancy=1
+2026-06-19 12:46:30,527 [INFO] Sample → {'timestamp': '2026-06-19 12:46:30', 'motion_detected': False, 'temperature_c': 28.6, 'humidity_pct': 58.8, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:46:30,528 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:46:40,528 [INFO] ── Sample 8 / 48 ──
+2026-06-19 12:46:40,832 [INFO] Prediction input=[0, 28.6, 59.9, 0] → occupancy=0
+2026-06-19 12:46:40,832 [INFO] Sample → {'timestamp': '2026-06-19 12:46:40', 'motion_detected': False, 'temperature_c': 28.6, 'humidity_pct': 59.9, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:46:40,833 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:46:50,833 [INFO] ── Sample 9 / 48 ──
+2026-06-19 12:46:51,138 [INFO] Prediction input=[0, 28.6, 54.8, 0] → occupancy=0
+2026-06-19 12:46:51,139 [INFO] Sample → {'timestamp': '2026-06-19 12:46:50', 'motion_detected': False, 'temperature_c': 28.6, 'humidity_pct': 54.8, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:46:51,139 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:47:01,139 [INFO] ── Sample 10 / 48 ──
+2026-06-19 12:47:01,443 [INFO] Prediction input=[1, 28.6, 52.0, 0] → occupancy=0
+2026-06-19 12:47:01,443 [INFO] Sample → {'timestamp': '2026-06-19 12:47:01', 'motion_detected': True, 'temperature_c': 28.6, 'humidity_pct': 52.0, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:47:01,444 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:47:11,444 [INFO] ── Sample 11 / 48 ──
+2026-06-19 12:47:11,747 [INFO] Prediction input=[0, 28.5, 51.1, 0] → occupancy=0
+2026-06-19 12:47:11,748 [INFO] Sample → {'timestamp': '2026-06-19 12:47:11', 'motion_detected': False, 'temperature_c': 28.5, 'humidity_pct': 51.1, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:47:11,748 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:47:21,748 [INFO] ── Sample 12 / 48 ──
+2026-06-19 12:47:22,052 [INFO] Prediction input=[1, 28.5, 50.8, 0] → occupancy=0
+2026-06-19 12:47:22,052 [INFO] Sample → {'timestamp': '2026-06-19 12:47:21', 'motion_detected': True, 'temperature_c': 28.5, 'humidity_pct': 50.8, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:47:22,053 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:47:32,053 [INFO] ── Sample 13 / 48 ──
+2026-06-19 12:47:32,356 [INFO] Prediction input=[1, 28.4, 50.8, 0] → occupancy=0
+2026-06-19 12:47:32,356 [INFO] Sample → {'timestamp': '2026-06-19 12:47:32', 'motion_detected': True, 'temperature_c': 28.4, 'humidity_pct': 50.8, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:47:32,357 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:47:42,357 [INFO] ── Sample 14 / 48 ──
+2026-06-19 12:47:42,660 [INFO] Prediction input=[0, 28.4, 54.6, 1] → occupancy=1
+2026-06-19 12:47:42,660 [INFO] Sample → {'timestamp': '2026-06-19 12:47:42', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 54.6, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:47:42,661 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:47:52,661 [INFO] ── Sample 15 / 48 ──
+2026-06-19 12:47:52,964 [INFO] Prediction input=[0, 28.4, 53.4, 1] → occupancy=1
+2026-06-19 12:47:52,964 [INFO] Sample → {'timestamp': '2026-06-19 12:47:52', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 53.4, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:47:52,965 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:48:02,965 [INFO] ── Sample 16 / 48 ──
+2026-06-19 12:48:03,270 [INFO] Prediction input=[0, 28.3, 52.1, 1] → occupancy=1
+2026-06-19 12:48:03,270 [INFO] Sample → {'timestamp': '2026-06-19 12:48:02', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 52.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:48:03,271 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:48:13,271 [INFO] ── Sample 17 / 48 ──
+2026-06-19 12:48:13,572 [INFO] Prediction input=[0, 28.3, 51.4, 1] → occupancy=1
+2026-06-19 12:48:13,573 [INFO] Sample → {'timestamp': '2026-06-19 12:48:13', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 51.4, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:48:13,573 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:48:23,573 [INFO] ── Sample 18 / 48 ──
+2026-06-19 12:48:23,875 [INFO] Prediction input=[0, 28.3, 50.8, 1] → occupancy=1
+2026-06-19 12:48:23,875 [INFO] Sample → {'timestamp': '2026-06-19 12:48:23', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 50.8, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:48:23,876 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:48:33,876 [INFO] ── Sample 19 / 48 ──
+2026-06-19 12:48:34,179 [INFO] Prediction input=[0, 28.2, 51.0, 0] → occupancy=0
+2026-06-19 12:48:34,180 [INFO] Sample → {'timestamp': '2026-06-19 12:48:33', 'motion_detected': False, 'temperature_c': 28.2, 'humidity_pct': 51.0, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:48:34,180 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:48:44,180 [INFO] ── Sample 20 / 48 ──
+2026-06-19 12:48:44,482 [INFO] Prediction input=[1, 28.2, 50.5, 0] → occupancy=0
+2026-06-19 12:48:44,482 [INFO] Sample → {'timestamp': '2026-06-19 12:48:44', 'motion_detected': True, 'temperature_c': 28.2, 'humidity_pct': 50.5, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:48:44,483 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:48:54,483 [INFO] ── Sample 21 / 48 ──
+2026-06-19 12:48:54,786 [INFO] Prediction input=[0, 28.2, 51.9, 0] → occupancy=0
+2026-06-19 12:48:54,786 [INFO] Sample → {'timestamp': '2026-06-19 12:48:54', 'motion_detected': False, 'temperature_c': 28.2, 'humidity_pct': 51.9, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:48:54,787 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:49:04,787 [INFO] ── Sample 22 / 48 ──
+2026-06-19 12:49:05,089 [INFO] Prediction input=[0, 28.2, 52.2, 0] → occupancy=0
+2026-06-19 12:49:05,089 [INFO] Sample → {'timestamp': '2026-06-19 12:49:04', 'motion_detected': False, 'temperature_c': 28.2, 'humidity_pct': 52.2, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:49:05,090 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:49:15,090 [INFO] ── Sample 23 / 48 ──
+2026-06-19 12:49:15,391 [INFO] Prediction input=[0, 28.2, 52.9, 0] → occupancy=0
+2026-06-19 12:49:15,392 [INFO] Sample → {'timestamp': '2026-06-19 12:49:15', 'motion_detected': False, 'temperature_c': 28.2, 'humidity_pct': 52.9, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:49:15,392 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:49:25,392 [INFO] ── Sample 24 / 48 ──
+2026-06-19 12:49:25,697 [INFO] Prediction input=[0, 28.2, 53.5, 0] → occupancy=0
+2026-06-19 12:49:25,698 [INFO] Sample → {'timestamp': '2026-06-19 12:49:25', 'motion_detected': False, 'temperature_c': 28.2, 'humidity_pct': 53.5, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:49:25,698 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:49:35,699 [INFO] ── Sample 25 / 48 ──
+2026-06-19 12:49:36,001 [INFO] Prediction input=[0, 28.2, 53.7, 1] → occupancy=1
+2026-06-19 12:49:36,001 [INFO] Sample → {'timestamp': '2026-06-19 12:49:35', 'motion_detected': False, 'temperature_c': 28.2, 'humidity_pct': 53.7, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:49:36,001 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:49:46,002 [INFO] ── Sample 26 / 48 ──
+2026-06-19 12:49:46,306 [INFO] Prediction input=[0, 28.2, 53.2, 1] → occupancy=1
+2026-06-19 12:49:46,306 [INFO] Sample → {'timestamp': '2026-06-19 12:49:46', 'motion_detected': False, 'temperature_c': 28.2, 'humidity_pct': 53.2, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:49:46,307 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:49:56,307 [INFO] ── Sample 27 / 48 ──
+2026-06-19 12:49:56,609 [INFO] Prediction input=[0, 28.2, 51.6, 0] → occupancy=0
+2026-06-19 12:49:56,609 [INFO] Sample → {'timestamp': '2026-06-19 12:49:56', 'motion_detected': False, 'temperature_c': 28.2, 'humidity_pct': 51.6, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:49:56,609 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:50:06,610 [INFO] ── Sample 28 / 48 ──
+2026-06-19 12:50:06,906 [INFO] Prediction input=[1, 28.2, 52.4, 0] → occupancy=0
+2026-06-19 12:50:06,906 [INFO] Sample → {'timestamp': '2026-06-19 12:50:06', 'motion_detected': True, 'temperature_c': 28.2, 'humidity_pct': 52.4, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:50:06,906 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:50:16,907 [INFO] ── Sample 29 / 48 ──
+2026-06-19 12:50:17,209 [INFO] Prediction input=[0, 28.2, 53.9, 1] → occupancy=1
+2026-06-19 12:50:17,210 [INFO] Sample → {'timestamp': '2026-06-19 12:50:16', 'motion_detected': False, 'temperature_c': 28.2, 'humidity_pct': 53.9, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:50:17,210 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:50:27,210 [INFO] ── Sample 30 / 48 ──
+2026-06-19 12:50:27,514 [INFO] Prediction input=[0, 28.3, 61.1, 1] → occupancy=1
+2026-06-19 12:50:27,514 [INFO] Sample → {'timestamp': '2026-06-19 12:50:27', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 61.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:50:27,514 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:50:37,515 [INFO] ── Sample 31 / 48 ──
+2026-06-19 12:50:37,817 [INFO] Prediction input=[0, 28.7, 79.4, 0] → occupancy=0
+2026-06-19 12:50:37,818 [INFO] Sample → {'timestamp': '2026-06-19 12:50:37', 'motion_detected': False, 'temperature_c': 28.7, 'humidity_pct': 79.4, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:50:37,818 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:50:47,818 [INFO] ── Sample 32 / 48 ──
+2026-06-19 12:50:48,120 [INFO] Prediction input=[0, 29.3, 83.4, 0] → occupancy=0
+2026-06-19 12:50:48,121 [INFO] Sample → {'timestamp': '2026-06-19 12:50:47', 'motion_detected': False, 'temperature_c': 29.3, 'humidity_pct': 83.4, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:50:48,121 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:50:58,122 [INFO] ── Sample 33 / 48 ──
+2026-06-19 12:50:58,423 [INFO] Prediction input=[0, 29.7, 85.6, 1] → occupancy=1
+2026-06-19 12:50:58,424 [INFO] Sample → {'timestamp': '2026-06-19 12:50:58', 'motion_detected': False, 'temperature_c': 29.7, 'humidity_pct': 85.6, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:50:58,424 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:51:08,424 [INFO] ── Sample 34 / 48 ──
+2026-06-19 12:51:08,727 [INFO] Prediction input=[1, 30.2, 86.5, 1] → occupancy=1
+2026-06-19 12:51:08,727 [INFO] Sample → {'timestamp': '2026-06-19 12:51:08', 'motion_detected': True, 'temperature_c': 30.2, 'humidity_pct': 86.5, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-19 12:51:08,727 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:51:18,728 [INFO] ── Sample 35 / 48 ──
+2026-06-19 12:51:19,029 [INFO] Prediction input=[0, 30.5, 87.0, 0] → occupancy=0
+2026-06-19 12:51:19,030 [INFO] Sample → {'timestamp': '2026-06-19 12:51:18', 'motion_detected': False, 'temperature_c': 30.5, 'humidity_pct': 87.0, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:51:19,030 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:51:29,031 [INFO] ── Sample 36 / 48 ──
+2026-06-19 12:51:29,332 [INFO] Prediction input=[1, 30.8, 87.4, 0] → occupancy=0
+2026-06-19 12:51:29,333 [INFO] Sample → {'timestamp': '2026-06-19 12:51:29', 'motion_detected': True, 'temperature_c': 30.8, 'humidity_pct': 87.4, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:51:29,333 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:51:39,334 [INFO] ── Sample 37 / 48 ──
+2026-06-19 12:51:39,639 [INFO] Prediction input=[0, 31.1, 88.0, 0] → occupancy=0
+2026-06-19 12:51:39,639 [INFO] Sample → {'timestamp': '2026-06-19 12:51:39', 'motion_detected': False, 'temperature_c': 31.1, 'humidity_pct': 88.0, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:51:39,639 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:51:49,640 [INFO] ── Sample 38 / 48 ──
+2026-06-19 12:51:49,944 [INFO] Prediction input=[0, 31.2, 72.0, 0] → occupancy=0
+2026-06-19 12:51:49,944 [INFO] Sample → {'timestamp': '2026-06-19 12:51:49', 'motion_detected': False, 'temperature_c': 31.2, 'humidity_pct': 72.0, 'audio_detected': 0, 'occupancy_predicted': 0}
+2026-06-19 12:51:49,945 [INFO] Sleeping 10 s until next sample…
+2026-06-19 12:51:51,262 [WARNING] Interrupted by user — pushing partial data to GitHub…
+2026-06-19 12:51:52,654 [INFO] Successfully pushed sensor_data_20260619_124525.csv → AimanSebenar/data-collection-mliot/data-3/sensor_data_20260619_124525.csv
+2026-06-19 12:51:52,655 [INFO] GPIO cleaned up.
+2026-06-25 16:26:10,885 [INFO] GPIO initialised (BCM mode). Motion PIN=17  Audio PIN=23
+2026-06-25 16:26:10,887 [INFO] CSV initialised → /home/pi/data-collection-mliot/data-3/sensor_data_20260625_162610.csv
+2026-06-25 16:26:10,888 [INFO] Logging 48 samples every 10 s → /home/pi/data-collection-mliot/data-3/sensor_data_20260625_162610.csv
+2026-06-25 16:26:10,888 [INFO] ── Sample 1 / 48 ──
+2026-06-25 16:26:11,142 [INFO] Loading model from /home/pi/data-collection-mliot/model/occupancy_model.pkl
+2026-06-25 16:26:16,433 [INFO] Prediction input=[0, 28.6, 80.2, 1] → occupancy=1
+2026-06-25 16:26:16,434 [INFO] Sample → {'timestamp': '2026-06-25 16:26:10', 'motion_detected': False, 'temperature_c': 28.6, 'humidity_pct': 80.2, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:26:16,435 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:26:26,436 [INFO] ── Sample 2 / 48 ──
+2026-06-25 16:26:26,740 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:26:26,740 [INFO] Sample → {'timestamp': '2026-06-25 16:26:26', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:26:26,741 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:26:36,741 [INFO] ── Sample 3 / 48 ──
+2026-06-25 16:26:37,043 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:26:37,043 [INFO] Sample → {'timestamp': '2026-06-25 16:26:36', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:26:37,043 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:26:47,044 [INFO] ── Sample 4 / 48 ──
+2026-06-25 16:26:47,347 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:26:47,347 [INFO] Sample → {'timestamp': '2026-06-25 16:26:47', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:26:47,347 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:26:57,348 [INFO] ── Sample 5 / 48 ──
+2026-06-25 16:26:57,653 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:26:57,654 [INFO] Sample → {'timestamp': '2026-06-25 16:26:57', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:26:57,654 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:27:07,655 [INFO] ── Sample 6 / 48 ──
+2026-06-25 16:27:07,957 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:27:07,957 [INFO] Sample → {'timestamp': '2026-06-25 16:27:07', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:27:07,958 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:27:17,958 [INFO] ── Sample 7 / 48 ──
+2026-06-25 16:27:18,262 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:27:18,262 [INFO] Sample → {'timestamp': '2026-06-25 16:27:17', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:27:18,263 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:27:28,263 [INFO] ── Sample 8 / 48 ──
+2026-06-25 16:27:28,566 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:27:28,566 [INFO] Sample → {'timestamp': '2026-06-25 16:27:28', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:27:28,567 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:27:38,567 [INFO] ── Sample 9 / 48 ──
+2026-06-25 16:27:38,821 [WARNING] DHT22 read attempt 1/5 failed: A full buffer was not returned. Try again.
+2026-06-25 16:27:41,123 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:27:41,123 [INFO] Sample → {'timestamp': '2026-06-25 16:27:38', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:27:41,124 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:27:51,124 [INFO] ── Sample 10 / 48 ──
+2026-06-25 16:27:51,427 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:27:51,427 [INFO] Sample → {'timestamp': '2026-06-25 16:27:51', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:27:51,427 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:28:01,428 [INFO] ── Sample 11 / 48 ──
+2026-06-25 16:28:01,729 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:28:01,729 [INFO] Sample → {'timestamp': '2026-06-25 16:28:01', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:28:01,730 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:28:11,730 [INFO] ── Sample 12 / 48 ──
+2026-06-25 16:28:12,033 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:28:12,033 [INFO] Sample → {'timestamp': '2026-06-25 16:28:11', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:28:12,034 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:28:22,034 [INFO] ── Sample 13 / 48 ──
+2026-06-25 16:28:22,337 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:28:22,337 [INFO] Sample → {'timestamp': '2026-06-25 16:28:22', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:28:22,337 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:28:32,338 [INFO] ── Sample 14 / 48 ──
+2026-06-25 16:28:32,643 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:28:32,644 [INFO] Sample → {'timestamp': '2026-06-25 16:28:32', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:28:32,644 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:28:42,644 [INFO] ── Sample 15 / 48 ──
+2026-06-25 16:28:42,948 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:28:42,949 [INFO] Sample → {'timestamp': '2026-06-25 16:28:42', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:28:42,949 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:28:52,949 [INFO] ── Sample 16 / 48 ──
+2026-06-25 16:28:53,253 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:28:53,253 [INFO] Sample → {'timestamp': '2026-06-25 16:28:52', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:28:53,254 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:29:03,254 [INFO] ── Sample 17 / 48 ──
+2026-06-25 16:29:03,557 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:29:03,557 [INFO] Sample → {'timestamp': '2026-06-25 16:29:03', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:29:03,557 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:29:13,558 [INFO] ── Sample 18 / 48 ──
+2026-06-25 16:29:13,862 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:29:13,862 [INFO] Sample → {'timestamp': '2026-06-25 16:29:13', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:29:13,862 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:29:23,863 [INFO] ── Sample 19 / 48 ──
+2026-06-25 16:29:24,165 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:29:24,166 [INFO] Sample → {'timestamp': '2026-06-25 16:29:23', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:29:24,166 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:29:34,167 [INFO] ── Sample 20 / 48 ──
+2026-06-25 16:29:34,469 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:29:34,470 [INFO] Sample → {'timestamp': '2026-06-25 16:29:34', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:29:34,470 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:29:37,289 [WARNING] Interrupted by user — pushing partial data to GitHub…
+2026-06-25 16:29:39,070 [INFO] Successfully pushed sensor_data_20260625_162610.csv → AimanSebenar/data-collection-mliot/data-3/sensor_data_20260625_162610.csv
+2026-06-25 16:29:39,071 [INFO] GPIO cleaned up.
+2026-06-25 16:33:10,207 [INFO] GPIO initialised (BCM mode). Motion PIN=17  Audio PIN=23
+2026-06-25 16:33:10,208 [INFO] CSV initialised → /home/pi/data-collection-mliot/data-3/sensor_data_20260625_163310.csv
+2026-06-25 16:33:10,208 [INFO] Logging 48 samples every 10 s → /home/pi/data-collection-mliot/data-3/sensor_data_20260625_163310.csv
+2026-06-25 16:33:10,208 [INFO] ── Sample 1 / 48 ──
+2026-06-25 16:33:10,462 [INFO] Loading model from /home/pi/data-collection-mliot/model/occupancy_model.pkl
+2026-06-25 16:33:13,237 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:33:13,238 [INFO] Sample → {'timestamp': '2026-06-25 16:33:10', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:33:13,238 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:33:23,239 [INFO] ── Sample 2 / 48 ──
+2026-06-25 16:33:23,543 [INFO] Prediction input=[0, 28.4, 81.2, 1] → occupancy=1
+2026-06-25 16:33:23,543 [INFO] Sample → {'timestamp': '2026-06-25 16:33:23', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.2, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:33:23,544 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:33:33,544 [INFO] ── Sample 3 / 48 ──
+2026-06-25 16:33:33,847 [INFO] Prediction input=[0, 28.4, 81.2, 1] → occupancy=1
+2026-06-25 16:33:33,847 [INFO] Sample → {'timestamp': '2026-06-25 16:33:33', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.2, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:33:33,847 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:33:43,848 [INFO] ── Sample 4 / 48 ──
+2026-06-25 16:33:44,144 [INFO] Prediction input=[0, 28.4, 81.2, 1] → occupancy=1
+2026-06-25 16:33:44,144 [INFO] Sample → {'timestamp': '2026-06-25 16:33:43', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.2, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:33:44,145 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:33:54,145 [INFO] ── Sample 5 / 48 ──
+2026-06-25 16:33:54,399 [WARNING] DHT22 read attempt 1/5 failed: A full buffer was not returned. Try again.
+2026-06-25 16:33:56,702 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:33:56,703 [INFO] Sample → {'timestamp': '2026-06-25 16:33:54', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:33:56,703 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:34:06,703 [INFO] ── Sample 6 / 48 ──
+2026-06-25 16:34:07,009 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:34:07,009 [INFO] Sample → {'timestamp': '2026-06-25 16:34:06', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:34:07,010 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:34:17,010 [INFO] ── Sample 7 / 48 ──
+2026-06-25 16:34:17,315 [INFO] Prediction input=[0, 28.4, 81.2, 1] → occupancy=1
+2026-06-25 16:34:17,315 [INFO] Sample → {'timestamp': '2026-06-25 16:34:17', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.2, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:34:17,315 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:34:27,316 [INFO] ── Sample 8 / 48 ──
+2026-06-25 16:34:27,618 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:34:27,619 [INFO] Sample → {'timestamp': '2026-06-25 16:34:27', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:34:27,619 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:34:37,619 [INFO] ── Sample 9 / 48 ──
+2026-06-25 16:34:37,924 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:34:37,924 [INFO] Sample → {'timestamp': '2026-06-25 16:34:37', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:34:37,924 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:34:47,925 [INFO] ── Sample 10 / 48 ──
+2026-06-25 16:34:48,228 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:34:48,229 [INFO] Sample → {'timestamp': '2026-06-25 16:34:47', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:34:48,229 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:34:58,229 [INFO] ── Sample 11 / 48 ──
+2026-06-25 16:34:58,534 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:34:58,534 [INFO] Sample → {'timestamp': '2026-06-25 16:34:58', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:34:58,534 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:35:08,535 [INFO] ── Sample 12 / 48 ──
+2026-06-25 16:35:08,837 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:35:08,837 [INFO] Sample → {'timestamp': '2026-06-25 16:35:08', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:35:08,837 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:35:18,838 [INFO] ── Sample 13 / 48 ──
+2026-06-25 16:35:19,143 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:35:19,143 [INFO] Sample → {'timestamp': '2026-06-25 16:35:18', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:35:19,143 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:35:29,144 [INFO] ── Sample 14 / 48 ──
+2026-06-25 16:35:29,449 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:35:29,449 [INFO] Sample → {'timestamp': '2026-06-25 16:35:29', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:35:29,450 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:35:39,450 [INFO] ── Sample 15 / 48 ──
+2026-06-25 16:35:39,751 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:35:39,752 [INFO] Sample → {'timestamp': '2026-06-25 16:35:39', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:35:39,752 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:35:49,753 [INFO] ── Sample 16 / 48 ──
+2026-06-25 16:35:50,058 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:35:50,058 [INFO] Sample → {'timestamp': '2026-06-25 16:35:49', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:35:50,059 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:36:00,059 [INFO] ── Sample 17 / 48 ──
+2026-06-25 16:36:00,364 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:36:00,364 [INFO] Sample → {'timestamp': '2026-06-25 16:36:00', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:36:00,364 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:36:10,365 [INFO] ── Sample 18 / 48 ──
+2026-06-25 16:36:10,668 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:36:10,668 [INFO] Sample → {'timestamp': '2026-06-25 16:36:10', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:36:10,669 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:36:20,669 [INFO] ── Sample 19 / 48 ──
+2026-06-25 16:36:20,971 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:36:20,971 [INFO] Sample → {'timestamp': '2026-06-25 16:36:20', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:36:20,972 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:36:30,972 [INFO] ── Sample 20 / 48 ──
+2026-06-25 16:36:31,268 [INFO] Prediction input=[0, 28.5, 81.1, 1] → occupancy=1
+2026-06-25 16:36:31,268 [INFO] Sample → {'timestamp': '2026-06-25 16:36:30', 'motion_detected': False, 'temperature_c': 28.5, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:36:31,269 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:36:41,269 [INFO] ── Sample 21 / 48 ──
+2026-06-25 16:36:41,571 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:36:41,571 [INFO] Sample → {'timestamp': '2026-06-25 16:36:41', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:36:41,572 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:36:51,572 [INFO] ── Sample 22 / 48 ──
+2026-06-25 16:36:51,873 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:36:51,874 [INFO] Sample → {'timestamp': '2026-06-25 16:36:51', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:36:51,874 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:37:01,874 [INFO] ── Sample 23 / 48 ──
+2026-06-25 16:37:02,179 [INFO] Prediction input=[0, 28.4, 81.0, 1] → occupancy=1
+2026-06-25 16:37:02,179 [INFO] Sample → {'timestamp': '2026-06-25 16:37:01', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.0, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:37:02,179 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:37:12,180 [INFO] ── Sample 24 / 48 ──
+2026-06-25 16:37:12,482 [INFO] Prediction input=[0, 28.4, 81.1, 1] → occupancy=1
+2026-06-25 16:37:12,483 [INFO] Sample → {'timestamp': '2026-06-25 16:37:12', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.1, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:37:12,483 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:37:22,483 [INFO] ── Sample 25 / 48 ──
+2026-06-25 16:37:22,738 [WARNING] DHT22 read attempt 1/5 failed: Checksum did not validate. Try again.
+2026-06-25 16:37:25,040 [INFO] Prediction input=[0, 28.4, 81.2, 1] → occupancy=1
+2026-06-25 16:37:25,040 [INFO] Sample → {'timestamp': '2026-06-25 16:37:22', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.2, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:37:25,041 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:37:35,041 [INFO] ── Sample 26 / 48 ──
+2026-06-25 16:37:35,345 [INFO] Prediction input=[0, 28.4, 81.2, 1] → occupancy=1
+2026-06-25 16:37:35,345 [INFO] Sample → {'timestamp': '2026-06-25 16:37:35', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.2, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:37:35,346 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:37:45,346 [INFO] ── Sample 27 / 48 ──
+2026-06-25 16:37:45,649 [INFO] Prediction input=[0, 28.4, 81.2, 1] → occupancy=1
+2026-06-25 16:37:45,650 [INFO] Sample → {'timestamp': '2026-06-25 16:37:45', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.2, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:37:45,650 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:37:55,651 [INFO] ── Sample 28 / 48 ──
+2026-06-25 16:37:55,954 [INFO] Prediction input=[0, 28.4, 81.3, 1] → occupancy=1
+2026-06-25 16:37:55,955 [INFO] Sample → {'timestamp': '2026-06-25 16:37:55', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.3, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:37:55,955 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:38:05,955 [INFO] ── Sample 29 / 48 ──
+2026-06-25 16:38:06,257 [INFO] Prediction input=[0, 28.4, 81.3, 1] → occupancy=1
+2026-06-25 16:38:06,257 [INFO] Sample → {'timestamp': '2026-06-25 16:38:05', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.3, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:38:06,258 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:38:16,258 [INFO] ── Sample 30 / 48 ──
+2026-06-25 16:38:16,560 [INFO] Prediction input=[0, 28.4, 81.3, 1] → occupancy=1
+2026-06-25 16:38:16,561 [INFO] Sample → {'timestamp': '2026-06-25 16:38:16', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.3, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:38:16,561 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:38:26,561 [INFO] ── Sample 31 / 48 ──
+2026-06-25 16:38:26,865 [INFO] Prediction input=[0, 28.3, 81.3, 1] → occupancy=1
+2026-06-25 16:38:26,865 [INFO] Sample → {'timestamp': '2026-06-25 16:38:26', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.3, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:38:26,865 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:38:36,866 [INFO] ── Sample 32 / 48 ──
+2026-06-25 16:38:37,169 [INFO] Prediction input=[0, 28.4, 81.4, 1] → occupancy=1
+2026-06-25 16:38:37,169 [INFO] Sample → {'timestamp': '2026-06-25 16:38:36', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.4, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:38:37,169 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:38:47,170 [INFO] ── Sample 33 / 48 ──
+2026-06-25 16:38:47,474 [INFO] Prediction input=[0, 28.3, 81.4, 1] → occupancy=1
+2026-06-25 16:38:47,475 [INFO] Sample → {'timestamp': '2026-06-25 16:38:47', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.4, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:38:47,475 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:38:57,475 [INFO] ── Sample 34 / 48 ──
+2026-06-25 16:38:57,778 [INFO] Prediction input=[0, 28.4, 81.4, 1] → occupancy=1
+2026-06-25 16:38:57,778 [INFO] Sample → {'timestamp': '2026-06-25 16:38:57', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.4, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:38:57,779 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:39:07,779 [INFO] ── Sample 35 / 48 ──
+2026-06-25 16:39:08,083 [INFO] Prediction input=[0, 28.4, 81.4, 1] → occupancy=1
+2026-06-25 16:39:08,084 [INFO] Sample → {'timestamp': '2026-06-25 16:39:07', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.4, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:39:08,084 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:39:18,084 [INFO] ── Sample 36 / 48 ──
+2026-06-25 16:39:18,388 [INFO] Prediction input=[0, 28.4, 81.4, 1] → occupancy=1
+2026-06-25 16:39:18,388 [INFO] Sample → {'timestamp': '2026-06-25 16:39:18', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.4, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:39:18,389 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:39:28,389 [INFO] ── Sample 37 / 48 ──
+2026-06-25 16:39:28,694 [INFO] Prediction input=[0, 28.3, 81.4, 1] → occupancy=1
+2026-06-25 16:39:28,694 [INFO] Sample → {'timestamp': '2026-06-25 16:39:28', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.4, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:39:28,694 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:39:38,695 [INFO] ── Sample 38 / 48 ──
+2026-06-25 16:39:39,000 [INFO] Prediction input=[0, 28.4, 81.5, 1] → occupancy=1
+2026-06-25 16:39:39,000 [INFO] Sample → {'timestamp': '2026-06-25 16:39:38', 'motion_detected': False, 'temperature_c': 28.4, 'humidity_pct': 81.5, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:39:39,000 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:39:49,001 [INFO] ── Sample 39 / 48 ──
+2026-06-25 16:39:49,303 [INFO] Prediction input=[0, 28.3, 81.5, 1] → occupancy=1
+2026-06-25 16:39:49,303 [INFO] Sample → {'timestamp': '2026-06-25 16:39:49', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.5, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:39:49,304 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:39:59,304 [INFO] ── Sample 40 / 48 ──
+2026-06-25 16:39:59,607 [INFO] Prediction input=[0, 28.3, 81.5, 1] → occupancy=1
+2026-06-25 16:39:59,607 [INFO] Sample → {'timestamp': '2026-06-25 16:39:59', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.5, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:39:59,608 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:40:09,608 [INFO] ── Sample 41 / 48 ──
+2026-06-25 16:40:09,910 [INFO] Prediction input=[0, 28.3, 81.5, 1] → occupancy=1
+2026-06-25 16:40:09,910 [INFO] Sample → {'timestamp': '2026-06-25 16:40:09', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.5, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:40:09,911 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:40:19,911 [INFO] ── Sample 42 / 48 ──
+2026-06-25 16:40:20,215 [INFO] Prediction input=[0, 28.3, 81.5, 1] → occupancy=1
+2026-06-25 16:40:20,215 [INFO] Sample → {'timestamp': '2026-06-25 16:40:19', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.5, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:40:20,216 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:40:30,216 [INFO] ── Sample 43 / 48 ──
+2026-06-25 16:40:30,520 [INFO] Prediction input=[0, 28.3, 81.5, 1] → occupancy=1
+2026-06-25 16:40:30,520 [INFO] Sample → {'timestamp': '2026-06-25 16:40:30', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.5, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:40:30,520 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:40:40,521 [INFO] ── Sample 44 / 48 ──
+2026-06-25 16:40:40,823 [INFO] Prediction input=[0, 28.3, 81.6, 1] → occupancy=1
+2026-06-25 16:40:40,823 [INFO] Sample → {'timestamp': '2026-06-25 16:40:40', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.6, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:40:40,824 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:40:50,824 [INFO] ── Sample 45 / 48 ──
+2026-06-25 16:40:51,127 [INFO] Prediction input=[0, 28.3, 81.6, 1] → occupancy=1
+2026-06-25 16:40:51,127 [INFO] Sample → {'timestamp': '2026-06-25 16:40:50', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.6, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:40:51,128 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:41:01,128 [INFO] ── Sample 46 / 48 ──
+2026-06-25 16:41:01,431 [INFO] Prediction input=[0, 28.3, 81.5, 1] → occupancy=1
+2026-06-25 16:41:01,432 [INFO] Sample → {'timestamp': '2026-06-25 16:41:01', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.5, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:41:01,432 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:41:11,432 [INFO] ── Sample 47 / 48 ──
+2026-06-25 16:41:11,736 [INFO] Prediction input=[0, 28.3, 81.5, 1] → occupancy=1
+2026-06-25 16:41:11,737 [INFO] Sample → {'timestamp': '2026-06-25 16:41:11', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.5, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:41:11,737 [INFO] Sleeping 10 s until next sample…
+2026-06-25 16:41:21,738 [INFO] ── Sample 48 / 48 ──
+2026-06-25 16:41:22,042 [INFO] Prediction input=[0, 28.3, 81.5, 1] → occupancy=1
+2026-06-25 16:41:22,042 [INFO] Sample → {'timestamp': '2026-06-25 16:41:21', 'motion_detected': False, 'temperature_c': 28.3, 'humidity_pct': 81.5, 'audio_detected': 1, 'occupancy_predicted': 1}
+2026-06-25 16:41:22,043 [INFO] Data collection complete. Pushing to GitHub…
+2026-06-25 16:41:23,918 [INFO] Successfully pushed sensor_data_20260625_163310.csv → AimanSebenar/data-collection-mliot/data-3/sensor_data_20260625_163310.csv
+2026-06-25 16:41:23,919 [INFO] GPIO cleaned up.
